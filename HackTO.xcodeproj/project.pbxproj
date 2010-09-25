@@ -53,6 +53,7 @@
 		DA77242F124E81150049A07F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77241E124E81150049A07F /* NSString+UUID.m */; };
 		DA772438124E81760049A07F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA772437124E81760049A07F /* libxml2.dylib */; };
 		DA772451124E828F0049A07F /* OAuthTwitterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */; };
+		DA77246D124E85330049A07F /* OAuthTwitterDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA77246C124E85330049A07F /* OAuthTwitterDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +164,7 @@
 		DA772437124E81760049A07F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		DA77244F124E828F0049A07F /* OAuthTwitterDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthTwitterDemoViewController.h; sourceTree = "<group>"; };
 		DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthTwitterDemoViewController.m; sourceTree = "<group>"; };
+		DA77246C124E85330049A07F /* OAuthTwitterDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OAuthTwitterDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 		9AC7D9E1124D21E900C94F17 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA77246C124E85330049A07F /* OAuthTwitterDemoViewController.xib */,
 				DA77244F124E828F0049A07F /* OAuthTwitterDemoViewController.h */,
 				DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */,
 				9AC7D9E2124D221C00C94F17 /* CreateRequestViewController.h */,
@@ -466,6 +469,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				9AC7D9E6124D221C00C94F17 /* CreateRequestView.xib in Resources */,
+				DA77246D124E85330049A07F /* OAuthTwitterDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
