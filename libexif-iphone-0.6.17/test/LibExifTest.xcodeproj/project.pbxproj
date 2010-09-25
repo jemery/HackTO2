@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		CA3E850D0EF3F62D00E6353E /* LibExifTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E85030EF3F62D00E6353E /* LibExifTestViewController.xib */; };
+		CA3E850E0EF3F62D00E6353E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E85040EF3F62D00E6353E /* MainWindow.xib */; };
+		CA3E850F0EF3F62D00E6353E /* LibExifTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E85080EF3F62D00E6353E /* LibExifTestAppDelegate.m */; };
+		CA3E85100EF3F62D00E6353E /* LibExifTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E850A0EF3F62D00E6353E /* LibExifTestViewController.m */; };
+		CA3E85110EF3F62D00E6353E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E850B0EF3F62D00E6353E /* main.m */; };
+		CA3E85130EF3FC0400E6353E /* TestImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3E85120EF3FC0400E6353E /* TestImage.jpg */; };
+		CA3E85280EF3FC6300E6353E /* libexif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3E85250EF3FC5A00E6353E /* libexif.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3E85240EF3FC5A00E6353E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D /* libexif.a */;
+			remoteInfo = libexif;
+		};
+		CA3E85260EF3FC5A00E6353E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA3E84AF0EF3F3B400E6353E /* LibExifTest.app */;
+			remoteInfo = LibExifTest;
+		};
+		CA3E852A0EF3FC7700E6353E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D /* libexif */;
+			remoteInfo = libexif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* LibExifTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibExifTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA3E85020EF3F62D00E6353E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3E85030EF3F62D00E6353E /* LibExifTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibExifTestViewController.xib; sourceTree = "<group>"; };
+		CA3E85040EF3F62D00E6353E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CA3E85070EF3F62D00E6353E /* LibExifTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibExifTestAppDelegate.h; sourceTree = "<group>"; };
+		CA3E85080EF3F62D00E6353E /* LibExifTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibExifTestAppDelegate.m; sourceTree = "<group>"; };
+		CA3E85090EF3F62D00E6353E /* LibExifTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibExifTestViewController.h; sourceTree = "<group>"; };
+		CA3E850A0EF3F62D00E6353E /* LibExifTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibExifTestViewController.m; sourceTree = "<group>"; };
+		CA3E850B0EF3F62D00E6353E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3E85120EF3FC0400E6353E /* TestImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestImage.jpg; sourceTree = "<group>"; };
+		CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libexif.xcodeproj; path = ../libexif.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E85280EF3FC6300E6353E /* libexif.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LibExifTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */,
+				CA3E85010EF3F62D00E6353E /* Resources */,
+				CA3E85050EF3F62D00E6353E /* Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3E85010EF3F62D00E6353E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E85020EF3F62D00E6353E /* Info.plist */,
+				CA3E85030EF3F62D00E6353E /* LibExifTestViewController.xib */,
+				CA3E85040EF3F62D00E6353E /* MainWindow.xib */,
+				CA3E85120EF3FC0400E6353E /* TestImage.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA3E85050EF3F62D00E6353E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E85070EF3F62D00E6353E /* LibExifTestAppDelegate.h */,
+				CA3E85080EF3F62D00E6353E /* LibExifTestAppDelegate.m */,
+				CA3E85090EF3F62D00E6353E /* LibExifTestViewController.h */,
+				CA3E850A0EF3F62D00E6353E /* LibExifTestViewController.m */,
+				CA3E850B0EF3F62D00E6353E /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CA3E851D0EF3FC5A00E6353E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E85250EF3FC5A00E6353E /* libexif.a */,
+				CA3E85270EF3FC5A00E6353E /* LibExifTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LibExifTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LibExifTest" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3E852B0EF3FC7700E6353E /* PBXTargetDependency */,
+			);
+			name = LibExifTest;
+			productName = LibExifTest;
+			productReference = 1D6058910D05DD3D006BFB54 /* LibExifTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LibExifTest" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA3E851D0EF3FC5A00E6353E /* Products */;
+					ProjectRef = CA3E851C0EF3FC5A00E6353E /* libexif.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LibExifTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA3E85250EF3FC5A00E6353E /* libexif.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libexif.a;
+			remoteRef = CA3E85240EF3FC5A00E6353E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA3E85270EF3FC5A00E6353E /* LibExifTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LibExifTest.app;
+			remoteRef = CA3E85260EF3FC5A00E6353E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E850D0EF3F62D00E6353E /* LibExifTestViewController.xib in Resources */,
+				CA3E850E0EF3F62D00E6353E /* MainWindow.xib in Resources */,
+				CA3E85130EF3FC0400E6353E /* TestImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E850F0EF3F62D00E6353E /* LibExifTestAppDelegate.m in Sources */,
+				CA3E85100EF3F62D00E6353E /* LibExifTestViewController.m in Sources */,
+				CA3E85110EF3F62D00E6353E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3E852B0EF3FC7700E6353E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libexif;
+			targetProxy = CA3E852A0EF3FC7700E6353E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = LibExifTest;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../";
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = LibExifTest;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LibExifTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LibExifTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
