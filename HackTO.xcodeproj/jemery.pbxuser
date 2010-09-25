@@ -78,7 +78,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					721,
+					711,
 					60,
 					20,
 					48,
@@ -95,8 +95,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 307134681;
-			PBXWorkspaceStateSaveDate = 307134681;
+			PBXPerProjectTemplateStateSaveDate = 307135111;
+			PBXWorkspaceStateSaveDate = 307135111;
 		};
 		perUserProjectItems = {
 			9AC7D9A2124D1F1A00C94F17 = 9AC7D9A2124D1F1A00C94F17 /* PBXBookmark */;
@@ -211,7 +211,9 @@
 			9AC7DD12124E7E6B00C94F17 = 9AC7DD12124E7E6B00C94F17 /* PBXTextBookmark */;
 			9AC7DD13124E7E6B00C94F17 = 9AC7DD13124E7E6B00C94F17 /* PBXTextBookmark */;
 			9AC7DD14124E7ED200C94F17 = 9AC7DD14124E7ED200C94F17 /* PBXTextBookmark */;
-			9AC7DD29124E80DB00C94F17 /* PBXTextBookmark */ = 9AC7DD29124E80DB00C94F17 /* PBXTextBookmark */;
+			9AC7DD29124E80DB00C94F17 = 9AC7DD29124E80DB00C94F17 /* PBXTextBookmark */;
+			9AC7DD4C124E82AF00C94F17 /* XCBuildMessageTextBookmark */ = 9AC7DD4C124E82AF00C94F17 /* XCBuildMessageTextBookmark */;
+			9AC7DD4D124E82AF00C94F17 /* PBXTextBookmark */ = 9AC7DD4D124E82AF00C94F17 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9AC7D984124D1DA900C94F17 /* Source Control */;
 		userBuildSettings = {
@@ -331,9 +333,9 @@
 	};
 	9AC7D9E3124D221C00C94F17 /* CreateRequestViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {929, 1430}}";
-			sepNavSelRange = "{264, 0}";
-			sepNavVisRange = "{0, 1097}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1456}}";
+			sepNavSelRange = "{549, 0}";
+			sepNavVisRange = "{150, 1034}";
 		};
 	};
 	9AC7D9F1124D23DC00C94F17 /* PBXTextBookmark */ = {
@@ -629,17 +631,29 @@
 		vrLoc = 3;
 	};
 	9AC7DA33124D2F8A00C94F17 /* PictureTakerViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PictureTakerViewController.h;
+		path = /Users/jemery/Development/github/HackTO2/Classes/PictureTakerViewController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {939, 739}}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 571}}";
 			sepNavSelRange = "{757, 0}";
 			sepNavVisRange = "{0, 764}";
 		};
 	};
 	9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PictureTakerViewController.m;
+		path = /Users/jemery/Development/github/HackTO2/Classes/PictureTakerViewController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {929, 2730}}";
-			sepNavSelRange = "{5701, 0}";
-			sepNavVisRange = "{3991, 1500}";
+			sepNavIntBoundsRect = "{{0, 0}, {833, 2821}}";
+			sepNavSelRange = "{5831, 0}";
+			sepNavVisRange = "{0, 891}";
 		};
 	};
 	9AC7DA5D124D39C800C94F17 /* PBXTextBookmark */ = {
@@ -1461,6 +1475,25 @@
 		rLoc = 264;
 		rType = 0;
 		vrLen = 1097;
+		vrLoc = 0;
+	};
+	9AC7DD4C124E82AF00C94F17 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Libexif/exif-data.h: No such file or directory";
+		fRef = 9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	9AC7DD4D124E82AF00C94F17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */;
+		name = "PictureTakerViewController.m: 11";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 762;
 		vrLoc = 0;
 	};
 }

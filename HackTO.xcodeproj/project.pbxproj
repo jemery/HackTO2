@@ -27,15 +27,13 @@
 		9AC7D9B9124D1FC900C94F17 /* ASIHTTPRequestWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7D9B8124D1FC900C94F17 /* ASIHTTPRequestWrapper.m */; };
 		9AC7D9E5124D221C00C94F17 /* CreateRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7D9E3124D221C00C94F17 /* CreateRequestViewController.m */; };
 		9AC7D9E6124D221C00C94F17 /* CreateRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7D9E4124D221C00C94F17 /* CreateRequestView.xib */; };
-		9AC7DA36124D2F8A00C94F17 /* PictureTakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */; };
-		9AC7DA37124D2F8A00C94F17 /* PictureTakerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7DA35124D2F8A00C94F17 /* PictureTakerView.xib */; };
-		9AC7DAF3124D4E6B00C94F17 /* libexif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC7DAE8124D4E4400C94F17 /* libexif.a */; };
 		9AC7DC17124E4B1A00C94F17 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC0C124E4B1A00C94F17 /* NSObject+SBJSON.m */; };
 		9AC7DC18124E4B1A00C94F17 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC0E124E4B1A00C94F17 /* NSString+SBJSON.m */; };
 		9AC7DC19124E4B1A00C94F17 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC10124E4B1A00C94F17 /* SBJSON.m */; };
 		9AC7DC1A124E4B1A00C94F17 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC12124E4B1A00C94F17 /* SBJsonBase.m */; };
 		9AC7DC1B124E4B1A00C94F17 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC14124E4B1A00C94F17 /* SBJsonParser.m */; };
 		9AC7DC1C124E4B1A00C94F17 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7DC16124E4B1A00C94F17 /* SBJsonWriter.m */; };
+		9AC7DD55124E830800C94F17 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC7DD54124E830800C94F17 /* MediaPlayer.framework */; };
 		DA77241F124E81150049A07F /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7723E8124E81140049A07F /* libOAuth.a */; };
 		DA772420124E81150049A07F /* SA_OAuthTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7723EA124E81140049A07F /* SA_OAuthTwitterEngine.m */; };
 		DA772421124E81150049A07F /* SA_OAuthTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7723EC124E81140049A07F /* SA_OAuthTwitterController.m */; };
@@ -55,23 +53,6 @@
 		DA77242F124E81150049A07F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77241E124E81150049A07F /* NSString+UUID.m */; };
 		DA772438124E81760049A07F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA772437124E81760049A07F /* libxml2.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9AC7DAE7124D4E4400C94F17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AC7DAE0124D4E4400C94F17 /* libexif.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC046055464E500DB518D;
-			remoteInfo = libexif;
-		};
-		9AC7DB78124D541E00C94F17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9AC7DAE0124D4E4400C94F17 /* libexif.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC045055464E500DB518D;
-			remoteInfo = libexif;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,10 +92,6 @@
 		9AC7D9E2124D221C00C94F17 /* CreateRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateRequestViewController.h; path = Views/CreateRequestViewController.h; sourceTree = "<group>"; };
 		9AC7D9E3124D221C00C94F17 /* CreateRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateRequestViewController.m; path = Views/CreateRequestViewController.m; sourceTree = "<group>"; };
 		9AC7D9E4124D221C00C94F17 /* CreateRequestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CreateRequestView.xib; path = Views/CreateRequestView.xib; sourceTree = "<group>"; };
-		9AC7DA33124D2F8A00C94F17 /* PictureTakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTakerViewController.h; sourceTree = "<group>"; };
-		9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTakerViewController.m; sourceTree = "<group>"; };
-		9AC7DA35124D2F8A00C94F17 /* PictureTakerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTakerView.xib; sourceTree = "<group>"; };
-		9AC7DAE0124D4E4400C94F17 /* libexif.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libexif.xcodeproj; path = "libexif-iphone-0.6.17/libexif.xcodeproj"; sourceTree = "<group>"; };
 		9AC7DC0A124E4B1A00C94F17 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = JSON/JSON.h; sourceTree = "<group>"; };
 		9AC7DC0B124E4B1A00C94F17 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "JSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		9AC7DC0C124E4B1A00C94F17 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "JSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -129,6 +106,7 @@
 		9AC7DC15124E4B1A00C94F17 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
 		9AC7DC16124E4B1A00C94F17 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
 		9AC7DCE5124E74D100C94F17 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		9AC7DD54124E830800C94F17 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		DA7723E8124E81140049A07F /* libOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOAuth.a; sourceTree = "<group>"; };
 		DA7723E9124E81140049A07F /* SA_OAuthTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_OAuthTwitterEngine.h; sourceTree = "<group>"; };
 		DA7723EA124E81140049A07F /* SA_OAuthTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SA_OAuthTwitterEngine.m; sourceTree = "<group>"; };
@@ -196,9 +174,9 @@
 				9AC7D9A9124D1F2800C94F17 /* SystemConfiguration.framework in Frameworks */,
 				9AC7D9AD124D1F3300C94F17 /* MobileCoreServices.framework in Frameworks */,
 				9AC7D9B1124D1F5C00C94F17 /* libz.1.2.3.dylib in Frameworks */,
-				9AC7DAF3124D4E6B00C94F17 /* libexif.a in Frameworks */,
 				DA77241F124E81150049A07F /* libOAuth.a in Frameworks */,
 				DA772438124E81760049A07F /* libxml2.dylib in Frameworks */,
+				9AC7DD55124E830800C94F17 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,12 +210,12 @@
 			isa = PBXGroup;
 			children = (
 				DA7723E6124E81140049A07F /* Twitter+OAuth */,
-				9AC7DADB124D4E3400C94F17 /* SubProjects */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				9AC7DD54124E830800C94F17 /* MediaPlayer.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -316,27 +294,8 @@
 				9AC7D9E2124D221C00C94F17 /* CreateRequestViewController.h */,
 				9AC7D9E3124D221C00C94F17 /* CreateRequestViewController.m */,
 				9AC7D9E4124D221C00C94F17 /* CreateRequestView.xib */,
-				9AC7DA33124D2F8A00C94F17 /* PictureTakerViewController.h */,
-				9AC7DA34124D2F8A00C94F17 /* PictureTakerViewController.m */,
-				9AC7DA35124D2F8A00C94F17 /* PictureTakerView.xib */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		9AC7DADB124D4E3400C94F17 /* SubProjects */ = {
-			isa = PBXGroup;
-			children = (
-				9AC7DAE0124D4E4400C94F17 /* libexif.xcodeproj */,
-			);
-			name = SubProjects;
-			sourceTree = "<group>";
-		};
-		9AC7DAE1124D4E4400C94F17 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9AC7DAE8124D4E4400C94F17 /* libexif.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9AC7DC09124E4B0D00C94F17 /* JSON */ = {
@@ -464,7 +423,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9AC7DB79124D541E00C94F17 /* PBXTargetDependency */,
 			);
 			name = HackTO;
 			productName = HackTO;
@@ -489,28 +447,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9AC7DAE1124D4E4400C94F17 /* Products */;
-					ProjectRef = 9AC7DAE0124D4E4400C94F17 /* libexif.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* HackTO */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		9AC7DAE8124D4E4400C94F17 /* libexif.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libexif.a;
-			remoteRef = 9AC7DAE7124D4E4400C94F17 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -519,7 +461,6 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				9AC7D9E6124D221C00C94F17 /* CreateRequestView.xib in Resources */,
-				9AC7DA37124D2F8A00C94F17 /* PictureTakerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +482,6 @@
 				9AC7D9A1124D1E5700C94F17 /* Reachability.m in Sources */,
 				9AC7D9B9124D1FC900C94F17 /* ASIHTTPRequestWrapper.m in Sources */,
 				9AC7D9E5124D221C00C94F17 /* CreateRequestViewController.m in Sources */,
-				9AC7DA36124D2F8A00C94F17 /* PictureTakerViewController.m in Sources */,
 				9AC7DC17124E4B1A00C94F17 /* NSObject+SBJSON.m in Sources */,
 				9AC7DC18124E4B1A00C94F17 /* NSString+SBJSON.m in Sources */,
 				9AC7DC19124E4B1A00C94F17 /* SBJSON.m in Sources */,
@@ -569,14 +509,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		9AC7DB79124D541E00C94F17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libexif;
-			targetProxy = 9AC7DB78124D541E00C94F17 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -593,7 +525,7 @@
 					"\"$(SRCROOT)/Twitter+OAuth/SAOAuthTwitterEngine\"",
 				);
 				PRODUCT_NAME = HackTO;
-				USER_HEADER_SEARCH_PATHS = "\"$SDKROOT/usr/include/libxml2\"/** /Users/paul/hackto/HackTO2/libexif-iphone-0.6.17//**";
+				USER_HEADER_SEARCH_PATHS = "\"$SDKROOT/usr/include/libxml2\"/**";
 			};
 			name = Debug;
 		};
