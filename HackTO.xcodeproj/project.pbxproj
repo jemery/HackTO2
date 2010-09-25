@@ -52,6 +52,7 @@
 		DA77242E124E81150049A07F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77241C124E81150049A07F /* NSData+Base64.m */; };
 		DA77242F124E81150049A07F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77241E124E81150049A07F /* NSString+UUID.m */; };
 		DA772438124E81760049A07F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA772437124E81760049A07F /* libxml2.dylib */; };
+		DA772451124E828F0049A07F /* OAuthTwitterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +161,8 @@
 		DA77241D124E81150049A07F /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
 		DA77241E124E81150049A07F /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		DA772437124E81760049A07F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DA77244F124E828F0049A07F /* OAuthTwitterDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthTwitterDemoViewController.h; sourceTree = "<group>"; };
+		DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthTwitterDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +294,8 @@
 		9AC7D9E1124D21E900C94F17 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA77244F124E828F0049A07F /* OAuthTwitterDemoViewController.h */,
+				DA772450124E828F0049A07F /* OAuthTwitterDemoViewController.m */,
 				9AC7D9E2124D221C00C94F17 /* CreateRequestViewController.h */,
 				9AC7D9E3124D221C00C94F17 /* CreateRequestViewController.m */,
 				9AC7D9E4124D221C00C94F17 /* CreateRequestView.xib */,
@@ -504,6 +509,7 @@
 				DA77242D124E81150049A07F /* MGTwitterXMLParser.m in Sources */,
 				DA77242E124E81150049A07F /* NSData+Base64.m in Sources */,
 				DA77242F124E81150049A07F /* NSString+UUID.m in Sources */,
+				DA772451124E828F0049A07F /* OAuthTwitterDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
